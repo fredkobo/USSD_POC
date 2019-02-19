@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="za.co.fnb.ussd_poc.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter number to dial below" />
+
+    <EditText
+        android:id="@+id/ussd_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="USSD Code"/>
+
+    <Button
+        android:id="@+id/dial_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dial"/>
+
+    <TextView
+        android:id="@+id/txt_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
