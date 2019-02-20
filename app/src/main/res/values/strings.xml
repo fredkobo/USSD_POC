@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ussd-poc</string>
+    <string name="service_decription">This service records pop ups sent by your mobile operator, and saves them in USSD-POC App. It is absolutely safe to use.</string>
 </resources>

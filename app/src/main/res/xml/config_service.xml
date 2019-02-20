@@ -5,5 +5,6 @@
     android:accessibilityFlags="flagDefault"
     android:canRetrieveWindowContent="true"
     android:notificationTimeout="100"
+    android:description="@string/service_decription"
     android:packageNames="za.co.fnb.ussd_poc"
     android:settingsActivity="com.example.android.accessibility.ServiceSettingsActivity" />
